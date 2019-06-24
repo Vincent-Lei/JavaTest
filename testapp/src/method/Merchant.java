@@ -1,0 +1,17 @@
+package method;
+
+public class Merchant implements Customer{
+    private String name = "name-1";
+
+    public Number getPrice(double price, Customer customer) {
+        String name2 = "name-1";
+        if (customer.isVIP())
+            return price * 0.5f;
+        return price;
+    }
+
+    @Override
+    public boolean isVIP() {
+        return false;
+    }
+}
