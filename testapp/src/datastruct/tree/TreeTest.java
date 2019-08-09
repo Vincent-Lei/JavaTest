@@ -1,6 +1,14 @@
 package datastruct.tree;
 
 public class TreeTest {
+
+    public static void main(String[] args) {
+        System.out.println("this is treeTest");
+        TreeTest treeTest = new TreeTest(4);
+        treeTest.preOrderTraverse();
+    }
+
+
     private BinaryTree binaryTree;
 
     public TreeTest(int n) {

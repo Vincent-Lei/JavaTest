@@ -59,3 +59,27 @@
 
          6、其他：
                  提供推流认证、播放认证、以及防盗链全方位安全保障机制
+         demo体验 https://yx-web-nosdn.netease.im/package/LiveVideo_Android_Demo_Setup_v3.1.0.apk?download=LiveVideo_Android_Demo_Setup_v3.1.0.apk
+         或者 https://yunxin.163.com/live  首页banner 云直播->demo体验
+
+
+阿里云：
+        功能部分与腾讯云、网易云均类似，没有本质差别
+
+        具体计费标准：https://cn.aliyun.com/price/product?spm=a2c4g.11186623.2.10.6c014072DB2EM2#/live/detail
+
+关于点播流量计费
+按照每个视频150M，总共5个，每个视频500次/日，视频下发不压缩计算，总计约367GB/日或者10.75T/月
+
+腾讯云：
+       存储空间价格：0.0048元/GB/日，总计150*5/1024*0.0048元/GB/日 = 0.0035元/日（忽略不计）
+
+       点播流量价格：日流量处于0GB - 500GB这个范围内，0.24元/GB，总计367GB*0.24元/GB = 88.08元/日 = 2642.4元/月
+阿里云：
+        存储空间价格：存储大小在50G及以下免费使用
+
+        点播流量价格：月流量处于0GB-10TB这个范围内，0.24元/GB，
+                      月流量处于10TB-50TB这个范围内，0.23元/GB
+                      流量总价：10240GB*0.24元/GB+(367GB*30-10240GB)*0.23元/GB = 2634.7元/月
+
+
