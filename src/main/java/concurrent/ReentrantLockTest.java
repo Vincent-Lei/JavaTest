@@ -11,10 +11,6 @@ public class ReentrantLockTest {
         new ReentrantLockTest().test();
     }
 
-
-
-
-
     final Lock lock = new ReentrantLock();
     final Condition notFull = lock.newCondition();
     final Condition notEmpty = lock.newCondition();
@@ -99,23 +95,4 @@ public class ReentrantLockTest {
         t2.start();
         t3.start();
     }
-
-//    private static final Semaphore semaphore = new Semaphore(3);
-//
-//    private void semaphore() {
-//        ExecutorService executors = Executors.newFixedThreadPool(10);
-//        for (int i = 0; i < 10; i++) {
-//            executors.submit(() -> {
-//                try {
-//                    semaphore.acquire();
-//                    System.out.println("--semaphore--" + Thread.currentThread().getId());
-//                    Thread.sleep(1000);
-//                } catch (Exception e) {
-//                } finally {
-//                    semaphore.release();
-//                }
-//            });
-//        }
-//
-//    }
 }
